@@ -6,7 +6,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/OsirisFrik/windows-screen-manager/releases/download/v0.1.0/wsm.exe",
-      "hash": "sha256:TODO"
+      "hash": "sha256:0eb87708bc558ebfae1facc4a0665ad2caab2c479ca0a79b9ba2dbb0fb319863"
     }
   },
   "bin": "wsm.exe",
