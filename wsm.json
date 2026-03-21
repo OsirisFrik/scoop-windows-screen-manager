@@ -1,0 +1,26 @@
+{
+  "version": "0.1.0",
+  "description": "Save and restore monitor configurations on Windows",
+  "homepage": "https://github.com/OsirisFrik/windows-screen-manager",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/OsirisFrik/windows-screen-manager/releases/download/v0.1.0/wsm.exe",
+      "hash": "sha256:TODO"
+    }
+  },
+  "bin": "wsm.exe",
+  "checkver": {
+    "github": "https://github.com/OsirisFrik/windows-screen-manager"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/OsirisFrik/windows-screen-manager/releases/download/v$version/wsm.exe",
+        "hash": {
+          "url": "$url.sha256"
+        }
+      }
+    }
+  }
+}
